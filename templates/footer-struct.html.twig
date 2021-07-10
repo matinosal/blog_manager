@@ -1,0 +1,17 @@
+{% block footer %}
+    <footer class='footer'>
+        <div class='container-fluid'>
+            <div class='page-padding'>
+                <div class='container'>
+                    <div class='footer-content'>
+                        <div class='row'>
+                        {% block footer_content %}
+                            {% include "footer-content.html.twig" %}
+                        {% endblock %}
+                        </div>
+                    <div>
+                </div>
+            </div>
+        </div>
+    </footer>
+{% endblock  %}

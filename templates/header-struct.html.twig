@@ -1,0 +1,17 @@
+{% block header %}
+    <header class='header'>
+        <div class='container-fluid'>
+            <div class='page-padding'>
+                <div class='container'>
+                    <div class='header-content'>
+                        <div class='row'>
+                        {% block header_content %}
+                            {% include "header-content.html.twig" %}
+                        {% endblock %}
+                        </div>
+                    <div>
+                </div>
+            </div>
+        </div>
+    </header>
+{% endblock  %}

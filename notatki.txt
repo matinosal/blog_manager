@@ -1,2 +1,15 @@
 php bin/console debug:router - pokazuje wszystkie ścieżki na serwerze
 symfony server:start -d -uruchamia serwer symfony w tle
+yarn encore dev --watch - uruchamianie webpacka
+
+
+
+
+
+
+
+PLIKI SCCS:
+aby ładnie korzystać z plików sccs to najlepiej by było robić tak
+że mam plik np. header i pisać w nim style
+a potem na danej stronie korzystać z pliku js, gdzie imporuje 
+tylko pliki scss

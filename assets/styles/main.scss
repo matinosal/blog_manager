@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+body {
+    background-color: white; 
+}
+.header{
+    width:100%;
+
+    &-content{
+        width:100%;
+
+        &-left{
+            text-align:left;
+        }
+        &-right{
+            text-align:right;
+        }
+    }
+} 
