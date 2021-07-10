@@ -1,0 +1,2 @@
+php bin/console debug:router - pokazuje wszystkie ścieżki na serwerze
+symfony server:start -d -uruchamia serwer symfony w tle
